@@ -18,4 +18,4 @@
    and lo.session_id = sess.sid;
    
 --查询sql
-SELECT SID, SERIAL#, PADDR FROM V$SESSION WHERE SID = '刚才查到的SID';
+SELECT SID, SERIAL#, PADDR FROM V$SESSION WHERE SID = '刚才查到的SID';--
